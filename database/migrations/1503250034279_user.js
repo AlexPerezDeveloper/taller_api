@@ -13,8 +13,8 @@ class UserSchema extends Schema {
       table.integer('age', 2).notNullable()
       table.string('name', 20).notNullable()
       table.string('lastname', 100).notNullable()
-      table.integer('id_position', 2).unsigned().references('id').inTable('positions');
-      table.integer('id_depto', 3).unsigned().references('id').inTable('deptos');
+      table.integer('id_position', 2).unsigned().references('id').inTable('position');
+      table.integer('id_depto', 3).unsigned().references('id').inTable('depto');
       table.timestamps()
     })
   }
