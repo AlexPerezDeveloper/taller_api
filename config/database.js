@@ -75,7 +75,7 @@ module.exports = {
     connection: {
       host: Env.get('DB_HOST', 'ec2-46-137-113-157.eu-west-1.compute.amazonaws.com'),
       port: Env.get('DB_PORT', '5432'),
-      user: Env.get('DB_USER', 'dc3hc2td5sugg4'),
+      user: Env.get('DB_USER', 'gwubdcprdrymww'),
       password: Env.get('DB_PASSWORD', 'df7722bdc4002eb86451a49b7c9a0b584e83f66ac307fec5474afcd754caa213'),
       database: Env.get('DB_DATABASE', 'dc3hc2td5sugg4')
     },
